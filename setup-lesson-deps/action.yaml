@@ -36,7 +36,7 @@ runs:
             }
           }
           repos <- list(
-            duckdb      = "https://duckdb.r-universe.dev/duckdb",
+            duckdb      = 'https://duckdb.r-universe.dev',
             RSPM        = Sys.getenv("RSPM"),
             carpentries = "https://carpentries.r-universe.dev/",
             archive     = "https://carpentries.github.io/drat/",
@@ -96,7 +96,7 @@ runs:
             }
           }
           repos <- list(
-            duckdb      = "https://duckdb.r-universe.dev/duckdb",
+            duckdb      = 'https://duckdb.r-universe.dev',
             RSPM        = Sys.getenv("RSPM"),
             carpentries = "https://carpentries.r-universe.dev/",
             archive     = "https://carpentries.github.io/drat/",
